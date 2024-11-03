@@ -1,0 +1,99 @@
+body {
+  background: #f9f7fe;
+  font-family: sans-serif;
+}
+
+header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #64c8dc;
+}
+
+main {
+  font-family: Imprima;
+  border-bottom: 1px solid #64c8dc;
+  padding-top: 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+p {
+  color: grey;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  border: 1px solid #64c8dc;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #64c8dc;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 6px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #6ad5eb;
+  cursor: pointer;
+}
+
+.current-readings {
+  color: #0050a0;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.current-tempurature {
+  display: block;
+  justify-content: right;
+  position: relative;
+}
+
+.current-tempurature-icon {
+  font-size: 35px;
+  position: relative;
+  top: -8px;
+}
+
+.current-tempurature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-tempurature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
